@@ -3,6 +3,48 @@ body {
     box-sizing: border-box;
     background-color: #102633;
     font-family: sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header > img {
+    max-width: 1400px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1400px;
+}
+
+nav img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+
+nav ul li {
+    font-size: 14px;
+    opacity: .5;
+    padding: 20px;
+    font-weight: 700;
+    transition: .3s background-color, .3s opacity;
+}
+
+nav ul li:hover {
+    background-color: #f00;
+    opacity: 1;
 }
 
 
@@ -22,8 +64,8 @@ body {
 }
 
 .cuadrado {
-    width: 300px;
-    height: 220px;
+    width: 330px;
+    height: 240px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,8 +78,8 @@ body {
 }
 
 .secion01 > img {
-    width: 650px;
-    height: 460px;
+    width: 700px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -74,7 +116,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .secion02 > .secion02-titulo-texto {
@@ -102,13 +144,13 @@ body {
 }
 
 .secion02-sub-secion img {
-    width: 600px;
+    width: 680px;
 }
 
 .secion02-lista {
     background-color: #2d5880;
     padding: 40px;
-    width: 620px;
+    width: 700px;
     box-sizing: border-box;
 }
 
@@ -130,7 +172,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .secion03 h2 {
@@ -147,7 +189,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    width: 1240px;
 }
 
 .secion03-cpntenedor-dos-imagenes {
@@ -157,8 +198,8 @@ body {
 }
 
 .secion03-cpntenedor-dos-imagenes  img {
-    width: 611px;
-    height: 300px;
+    width: 690px;
+    height: 350px;
 }
 
 /* ------------------------------ SECION FOOTER ------------------------------------ */
@@ -199,7 +240,7 @@ footer {
 }
 
 .contenedor-red-social {
-    width: 200px;
+    width: 216.6px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -282,8 +323,10 @@ footer {
     text-align: center;
     color: #fff;
     opacity: .5;
+    margin-bottom: 50px;
 }
 
 .footer-parte03 p {
     margin: 2px 0;
+    
 }
